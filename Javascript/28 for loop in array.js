@@ -1,0 +1,8 @@
+let num=[1,2,3,4,5,6,7,8,9]
+console.log(num.length)
+console.log(num[5])
+console.log(num[num.length-2])
+
+for(let i=0;i<num.length;i++){
+    console.log(num[i])
+}

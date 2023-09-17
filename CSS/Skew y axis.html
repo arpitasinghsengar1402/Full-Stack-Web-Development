@@ -1,0 +1,32 @@
+<html>
+   <head>
+      <style>
+         div {
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+            border: 1px solid black;
+         }
+         div#skewDiv {
+            /* IE 9 */
+            -ms-transform: skewY(20deg); 
+            
+            /* Safari */
+            -webkit-transform: skewY(20deg); 
+            
+            /* Standard syntax */	
+            transform: skewY(20deg);
+         }
+      </style>
+   </head>
+
+   <body>
+      <div>
+         Tutorials point.com.
+      </div>
+      
+      <div id = "skewDiv">
+         Tutorials point.com
+      </div>
+   </body>
+</html>

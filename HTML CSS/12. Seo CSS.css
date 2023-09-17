@@ -1,0 +1,22 @@
+h1{
+    font-size: x-large;
+    text-align: center;
+    background-color: aqua;
+
+}
+p{
+    background-color: aquamarine;
+}
+#article1{
+    background-color: pink;
+}
+.paraclass{
+    background-color: red;
+}
+p,article{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p.paraclass,article{
+    font-size: xx-small;
+}
